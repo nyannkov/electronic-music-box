@@ -10,7 +10,7 @@
 
 #define ENDLESS_MOMOTARO_LOOP
 
-constexpr char mml[] = 
+const char mml[] =
 #if defined(ENDLESS_MOMOTARO_LOOP)
     /*
      * Momotaro
@@ -27,7 +27,7 @@ constexpr char mml[] =
         ">C8.C16<G4E8.E16A8.A16G8.G16E8.D16C2"
     "]"
     ","
-    // CH B 
+    // CH B
     "T107$B60" "L4O3 S0M4000" "C8.C16G8.G16" "E8.E16F8.F16" "G8.G16E8.D16" "C8.<G16>C4"
     "[0"
         "C8.G16<G8.>G16" "C8.G16<G8.>G16" "C8.G16<G8.>G16" "<G8.D16G8.>D16"
@@ -51,7 +51,7 @@ constexpr char mml[] =
      *
      */
     // CH A
-    "$B30T136" 
+    "$B30T136"
     "[2"
         "V15L4O5" "$M1$J12$L90$T4" "$E1$A0$H80$D100$S85$F0"
         "Q7"
@@ -63,7 +63,7 @@ constexpr char mml[] =
     "]" "D16C4$F500>C4"
     ","
     // CH B
-    "$B30T136" 
+    "$B30T136"
     "[2"
         "L4O3 S0M5000I0"
         "[7" "G8.G16M2000H8.M5000D16]"
